@@ -8,9 +8,10 @@ runApp(
   MaterialApp(
     theme: ThemeData(
       primaryColor:Color(0xff075E54),
-      colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Color(0xff25D366))
+      colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Color(0xff25D366)),
     ),
     home: HomeScreen(),
+    debugShowCheckedModeBanner:false
   )
 );
 }
